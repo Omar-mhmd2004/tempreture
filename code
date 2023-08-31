@@ -1,0 +1,11 @@
+# tempreture
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+data=({'temp':(44,41,47,37,39,45,45)})
+
+plt.figure(figsize=(10, 6))
+plt.title('Temperature Over Time')
+sns.lineplot(data=data)
+plt.xticks(rotation=45)
+plt.show()
